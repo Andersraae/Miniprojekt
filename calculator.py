@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 from tkinter import Tk, END, Entry, N, E, S, W, Button
 from tkinter import font
 from functools import partial
@@ -27,7 +27,7 @@ def calc(entry):
 
 def cal():
     root = Tk()
-    root.title("Calc")
+    root.title("Calculator")
     root.resizable(0, 0)
 
     entry_font = font.Font(size=15)
